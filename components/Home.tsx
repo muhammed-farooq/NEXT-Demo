@@ -2,10 +2,10 @@ import CardSection from "./CardSection"
 
 const Home = () => {
   return (
-    <div className="h-screen w-screen p-12 bg-white">
+    <div className="h-screen  p-12 bg-white">
         <div className="flex">
             <div className="flex-col flex space-y-2">
-                <h3 className="text-gray-500 text-lg">About me</h3>
+                <h3 className="text-gray-400 text-lg">About me</h3>
                 <h1 className="text-black text-6xl font-semibold">We Strive to Innovate</h1>
             </div>
             <div className="ms-auto">
