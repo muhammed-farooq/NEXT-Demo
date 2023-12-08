@@ -1,3 +1,4 @@
+import CardSection from "./CardSection"
 
 const Home = () => {
   return (
@@ -16,6 +17,9 @@ const Home = () => {
                 </button>
             </div>
         </div>
+        <hr className="mt-4"/>
+      <CardSection/>
+
     </div>
   )
 }
